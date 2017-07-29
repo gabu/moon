@@ -1,0 +1,31 @@
+hash: 19a5e2da2b57f54b9e2cf0c9a323306bc6c94449fca833250681ecfda2bb65ed
+updated: 2017-07-28T11:36:58.504019516+09:00
+imports:
+- name: github.com/bitfinexcom/bitfinex-api-go
+  version: 80112fc15e3577dc14f77262d57d40f1272d2637
+  subpackages:
+  - utils
+  - v1
+- name: github.com/gabu/go-bitgrail
+  version: 272261fd936d064dcc33e8d8bee4984836841983
+- name: github.com/gabu/go-cryptopia
+  version: 698f669c0909b76d532d1e76471dcbf44cf4ae78
+- name: github.com/gabu/go-liqui
+  version: c069282cdb62af43a8490df6d3259144485d41a5
+- name: github.com/gabu/go-poloniex
+  version: 560d7b0b91794dfd36a4a0f4080f36930b6fad44
+- name: github.com/gorilla/websocket
+  version: a91eba7f97777409bc2c443f5534d41dd20c5720
+- name: github.com/ka2n/go-poloniex
+  version: b3bbb4bade92323f416076f124776b4c2d9d05a3
+- name: github.com/pkg/errors
+  version: c605e284fe17294bda444b34710735b29d1a9d90
+- name: github.com/toorop/go-bittrex
+  version: ca71dd3098d4b6cf3a4a76f0901207f0d7c73bca
+- name: github.com/ugorji/go
+  version: 708a42d246822952f38190a8d8c4e6b16a0e600c
+  subpackages:
+  - codec
+- name: gopkg.in/jcelliott/turnpike.v2
+  version: fd62c756857599590cc1f661bd3e4e2ecf25cfd8
+testImports: []

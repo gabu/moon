@@ -1,0 +1,9 @@
+package: github.com/gabu/moon
+import:
+- package: github.com/bitfinexcom/bitfinex-api-go
+- package: github.com/ka2n/go-poloniex
+  version: develop
+- package: github.com/toorop/go-bittrex
+- package: github.com/gabu/go-liqui
+- package: github.com/gabu/go-cryptopia
+- package: github.com/gabu/go-bitgrail

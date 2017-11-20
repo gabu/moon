@@ -77,9 +77,21 @@ func (b *Bittrex) calcBtcValue(bittrex *bittrex.Bittrex, symbol string, amount f
 		return amount, nil
 	}
 	pair := "BTC-" + symbol
+	inverse := false
+
+	if pair == "BTC-USDT" {
+		pair = "USDT-BTC"
+		inverse = true
+	}
+
 	ticker, err := bittrex.GetTicker(pair)
 	if err != nil {
 		return 0, err
 	}
-	return amount * ticker.Last, nil
+
+	rate := ticker.Last
+	if inverse {
+		rate = 1 / rate
+	}
+	return amount * rate, nil
 }
